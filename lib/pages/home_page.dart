@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kuhely/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -14,7 +15,7 @@ class HomePage extends StatelessWidget {
           child: Text("Welcome to Kuhely!"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
