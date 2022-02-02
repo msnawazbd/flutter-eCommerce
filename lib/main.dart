@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:kuhely/pages/home_page.dart';
 import 'package:kuhely/pages/login_page.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:kuhely/utils/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,18 +17,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       theme: ThemeData(
-        primarySwatch: Colors.deepOrange,
-        fontFamily: GoogleFonts.lato().fontFamily
-      ),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark
-      ),
+          primarySwatch: Colors.deepPurple,
+          fontFamily: GoogleFonts.lato().fontFamily),
+      darkTheme: ThemeData(brightness: Brightness.dark),
       routes: {
-        "/": (context) => HomePage(),
-        "/home" : (context) => HomePage(),
-        "/login" : (context) => LoginPage(),
+        "/": (context) => LoginPage(),
+        MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.loginRoute: (context) => LoginPage(),
       },
     );
-
   }
 }
