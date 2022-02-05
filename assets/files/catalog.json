@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 12 Pro",
+      "desc": "Apple iPhone 12th generation",
+      "price": 999,
+      "color": "#33505a",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISJ6msIu4AU9_M9ZnJVQVFmfuhfyJjEtbUm3ZK11_8IV9TV25-1uM5wHjiFNwKy99w0mR5Hk&usqp=CAc"
+    },
+    {
+      "id": 2,
+      "name": "Macbook Air M1",
+      "desc": "Apple Macbook Air M1 2020",
+      "price": 999,
+      "color": "#33505a",
+      "image": "https://i.gadgets360cdn.com/products/large/macbook-air-m1-2020-db-800x600-1607604365.png"
+    },
+    {
+      "id": 3,
+      "name": "Airpods Pro",
+      "desc": "Apple Airpods Pro 1",
+      "price": 499,
+      "color": "#33505a",
+      "image": "https://www.startech.com.bd/image/cache/catalog/earphone/apple/airpods-pro/airpods-pro-1-500x500.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Apple Watch Series",
+      "desc": "Apple watch series 6",
+      "price": 699,
+      "color": "#33505a",
+      "image": "https://i5.walmartimages.com/asr/ecfcaa22-e47d-4569-a693-089daa6fab5b.ed88b817d75eb10b9c586d2d94935410.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Mac mini",
+      "desc": "Apple mac mini 2020",
+      "price": 899,
+      "color": "#33505a",
+      "image": "https://cdn.shopify.com/s/files/1/1706/9177/products/mac-mini-202011-gallery-3_6540dfde-3c12-42fa-98c8-dc1d25dcc7cf.jpg"
+    }
+  ]
+}
